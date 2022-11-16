@@ -1,0 +1,66 @@
+.botao1,
+.botao2 {
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.botao1 {
+  display: inline-block;
+  background-color: var(--cor-6);
+  padding: 14px 45px;
+  border-radius: 28px;
+  color: var(--cor-8);
+}
+
+.botao2 {
+  display: inline-block;
+  background-color: var(--cor-3);
+  padding: 14px 45px;
+  border-radius: 28px;
+  color: var(--cor-8);
+}
+
+.arrow1 {
+  display: inline-block;
+  background-color: var(--cor-6);
+  background-image: url("../../assets/icon-arrow-left.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  padding: 24px 25px;
+  border-radius: 50%;
+}
+
+.arrow2 {
+  display: inline-block;
+  background-color: var(--cor-6);
+  background-image: url("../../assets/icon-arrow-right.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  padding: 24px 25px;
+  border-radius: 50%;
+}
+
+.botao1:hover {
+  background-color: var(--cor-0);
+}
+
+.botao2:hover {
+  background-color: var(--cor-1);
+}
+
+.arrow1:hover,
+.arrow2:hover {
+  background-color: var(--cor-0);
+}
