@@ -34,3 +34,22 @@
   line-height: 1.555;
   font-weight: 500;
 }
+
+
+@media (max-width:1200px){
+  .font-1-h-xl{
+    font-size: 2.75rem;
+  }
+  .font-1-h-x{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:700px){
+  .font-1-h-xl{
+    font-size: 2rem;
+  }
+  .font-1-h-x{
+    font-size: 1.625rem;
+  }
+}
