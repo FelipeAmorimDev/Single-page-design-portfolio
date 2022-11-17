@@ -209,6 +209,7 @@ li.column-1-card-item img {
   padding: 80px 65px;
   border-radius: 10px;
     align-self: start;
+  box-sizing: border-box;
   
 }
 
