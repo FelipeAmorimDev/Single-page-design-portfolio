@@ -1,0 +1,28 @@
+/* Header */
+
+.header-bg {
+  background-color: var(--cor-8);
+}
+
+.header-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 34px 20px 66px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-container a:first-child {
+  max-height: 64px;
+}
+
+@media (max-width:600px){
+  .header-container {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  }
+}
